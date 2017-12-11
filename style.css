@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to bottom right, dodgerblue, mediumseagreen);
+}
+
+a {
+  color: black;
+}
+
+.smallish {
+  color: black;
+}
+
+#profilePic {
+  width: 300px;
+}

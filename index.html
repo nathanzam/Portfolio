@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nathan Zamkov</title>
+  <meta name="description" content="DESCRIPTION">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <scrip src="./app.js" type="text/javascript"></scrip>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav navbar-fixed-left">
+        <div data-spy="affix">
+          <h4>About Me</h4>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#section1">Resume</a></li>
+            <li><a href="#section2">Front End Projects</a></li>
+            <li><a href="#section3">Back End Projects</a></li>
+            <li><a href="#" data-toggle="popover" data-placement="bottom" title="A little bit more about me:" data-content="I am a big sports fan, specifically the University of Maryland, The Raiders, and The Wizards. I love to travel, preferrably somewhere with a beach. I'm a bit of an adreneline Junky, and hope to go skydiving in the near future.">Miscellaneous Info</a></li>
+            <script type="text/javascript">
+              $(document).ready(function() {
+                $('[data-toggle="popover"]').popover();
+              });
+            </script>
+          </ul><br>
+          <div>
+            <p>Check out my <a href="https://github.com/nathanzam">GitHub</a> or <a href="mailto:nathanzam@gmail.com">Email Me</a></p>
+          </div>
+          <br><br>
+          <img src="./images/profile.jpg" alt="Profile" id="profilePic">
+        </div>
+      </div>
+
+      <div class="col-sm-9" id="section1">
+        <h4><small class="smallish">Resume</small></h4>
+        <hr>
+        <h3>Technichal skills</h3><br>
+        <ul>
+          <li>Programming Languages: Python, JavaScript, HTML5, CSS3, SQL</li>
+          <li>Web Technologies and Development Frameworks: Django, Numpy, Pandas, Flask, API Calls, jQuery, AJAX, JSON, AngularJS, Sass, BootstrapUI</li>
+          <li>Databases: PostgreSQL, SQL Alchemy</li>
+          <li>Tools and Methodologies: GitHub, Anaconda, Jupyter Notebook, pgAdmin, Atom, Visual Studio Code, Bash, Agile Software Development, Scrum</li>
+          <li>Cloud Technology: Heroku, ElephantSQL</li>
+        </ul>
+
+        <br><br>
+
+        <h4><small class="smallish">Professional Work Experience</small></h4>
+        <hr>
+        <h3>Coding Temple – Washington, D.C. – August 2017 - Present</h3><br>
+        <h3>Software Engineer</h3><br>
+        <ul>
+          <li>Part of a team that developed various software projects including an E-commerce Application, Console based Application, and Web Application</li>
+          <li>Effectively communicated with the team to resolve issues and deliver product features in a timely manner</li>
+          <li>Developed interactive web based solutions using HTML, CSS, JavaScript, Angular JS, Python, Django and SQL</li>
+          <li>Used JavaScript and Angular JS to add dynamic features such as product filters and user reviews</li>
+          <li>Contributed to Python based data analytics and data wrangling</li>
+          <li>Built database Model and Views utilizing Django with multiple SQL dialects</li>
+          <li>Created Web APIs to integrate websites with databases</li>
+          <li>Participated in Agile Methodology including Scrum Stories and Sprints</li>
+        </ul>
+        <hr>
+        <h3>Wellness Corporate Solutions – Bethesda, MD & Fairfax, VA – July 2014 –August 2017 </h3><br>
+        <h3>Logistics Systems Specialist </h3><br>
+        <ul>
+          <li>Implementation, training and process improvement of all computer systems within Logistics department</li>
+          <li>Performed quality control checks and packing of materials for shipping</li>
+          <li>During tenure department error rate dropped from 25% to below 2%</li>
+        </ul>
+        <hr>
+        <h3>Elite Personnel – Bethesda, MD – June 2010 –July 2014 </h3><br>
+        <h3>Associate</h3><br>
+        <ul>
+          <li>General office work including data entry, filing, correspondence via mail, email and the telephone, management of office supplies, and oversight of shipping operations, for various clients</li>
+        </ul>
+        <hr>
+        <h3>RainKing Solutions – Bethesda, MD – October 2009 – February 2010 </h3><br>
+        <h3>Corporate IT Researcher</h3><br>
+        <ul>
+          <li>Researched IT departments of Fortune 1000 companies using internet searches, and conducting email and telephone interviews to create database</li>
+          <li>Responsible for the management of assistant researcher in India</li>
+        </ul>
+        <br><br>
+        <div class="col-sm-9" id="section2">
+          <h4><small class="smallish">Front End Projects</small></h4>
+          <hr>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./images/AJAX_Weather_Checker.png" alt="Weather API Project">
+                <div class="carousel-caption">
+                </div>
+                <h3><a class="center-block" href="https://github.com/nathanzam/weather-api">Weather API Project</a></h3>
+              </div>
+
+              <div class="item">
+                <img src="./images/Shoe_Store.jpg" alt="Shoe Store AngularJS Project">
+                <div class="carousel-caption">
+                </div>
+                <h3><a class="center-block" href="https://github.com/nathanzam/shoe-store">Shoe Store with AngularJS</a></h3>
+              </div>
+
+              <div class="item">
+                <img src="./images/javascript_quiz.png" alt="JS Quiz">
+                <div class="carousel-caption">
+                </div>
+                <h3><a class="center-block" href="https://github.com/nathanzam/Javascript-American-History-Quiz">Quiz using JavaScript</a></h3>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-sm-9" id="section3">
+          <h4><small class="smallish">Back End Projects</small></h4>
+          <hr>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./images/Egg_and_Basket.png" alt="Egg and Basket Game">
+                <div class="carousel-caption">
+                </div>
+                <h3 class="center-block"><a href="https://github.com/nathanzam/egg-and-basket-game">Python Text Game</a></h3>
+              </div>
+
+              <div class="item">
+                <img src="./images/WeWork.png" alt="WeWork Sprint">
+                <div class="carousel-caption">
+                </div>
+                <h3 class="center-block"><a href="https://github.com/nathanzam/WeWork">Python Data Migration displayed Using AngularJS</a></h3>
+              </div>
+
+              <div class="item">
+                <img src="./images/CapStone.png" alt="Capstone">
+                <div class="carousel-caption">
+                </div>
+                <h3 class="center-block"><a href="https://github.com/nathanzam/Movie-site">Movie site using Django and Flask server</a></h3>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
